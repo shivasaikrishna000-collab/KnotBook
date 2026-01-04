@@ -1,0 +1,28 @@
+{
+  "placeholderImages": [
+    {
+      "id": "costumes-hero",
+      "description": "A beautiful wedding dress hanging in a well-lit room.",
+      "imageUrl": "https://images.unsplash.com/photo-1532454781337-fc3edff34f91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3ZWRkaW5nJTIwZHJlc3N8ZW58MHx8fHwxNzYxMjIxOTk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding dress"
+    },
+    {
+      "id": "decoration-hero",
+      "description": "Elegant table setting at a wedding reception.",
+      "imageUrl": "https://images.unsplash.com/photo-1510076857177-7470076d4098?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3ZWRkaW5nJTIwZGVjb3JhdGlvbnxlbnwwfHx8fDE3NjEyNzA1MDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding decoration"
+    },
+    {
+      "id": "vehicles-hero",
+      "description": "A classic car decorated for a wedding.",
+      "imageUrl": "https://images.unsplash.com/photo-1571394111091-d3edac39a32b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3ZWRkaW5nJTIwY2FyfGVufDB8fHx8MTc2MTI3NjcyMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding car"
+    },
+    {
+      "id": "photography-hero",
+      "description": "A photographer taking a picture of a wedding couple.",
+      "imageUrl": "https://images.unsplash.com/photo-1604017011826-d3b4c23f8914?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3ZWRkaW5nJTIwcGhvdG9ncmFwaHl8ZW58MHx8fHwxNzYxMTkyOTkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding photography"
+    }
+  ]
+}

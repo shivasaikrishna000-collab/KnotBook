@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 50% 98%;
+    --foreground: 224 7% 18%;
+    --card: 0 0% 100%;
+    --card-foreground: 224 7% 18%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 224 7% 18%;
+    --primary: 6 75% 89%;
+    --primary-foreground: 6 40% 30%;
+    --secondary: 6 30% 95%;
+    --secondary-foreground: 6 40% 30%;
+    --muted: 6 30% 95%;
+    --muted-foreground: 224 7% 55%;
+    --accent: 45 65% 52%;
+    --accent-foreground: 40 50% 98%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 6 30% 88%;
+    --input: 6 30% 97%;
+    --ring: 6 75% 89%;
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 224 7% 18%;
+    --sidebar-primary: 6 75% 89%;
+    --sidebar-primary-foreground: 6 40% 30%;
+    --sidebar-accent: 6 30% 95%;
+    --sidebar-accent-foreground: 6 40% 30%;
+    --sidebar-border: 6 30% 88%;
+    --sidebar-ring: 6 75% 89%;
+  }
+
+  .dark {
+    --background: 220 12% 8%;
+    --foreground: 0 0% 98%;
+    --card: 220 12% 10%;
+    --card-foreground: 0 0% 98%;
+    --popover: 220 12% 8%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 6 75% 89%;
+    --primary-foreground: 6 40% 30%;
+    --secondary: 220 12% 15%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 220 12% 15%;
+    --muted-foreground: 220 12% 60%;
+    --accent: 45 65% 52%;
+    --accent-foreground: 224 7% 18%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 12% 15%;
+    --input: 220 12% 15%;
+    --ring: 6 75% 89%;
+
+    --sidebar-background: 220 12% 10%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 6 75% 89%;
+    --sidebar-primary-foreground: 6 40% 30%;
+    --sidebar-accent: 220 12% 15%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 220 12% 15%;
+    --sidebar-ring: 6 75% 89%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
